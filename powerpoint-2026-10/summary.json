@@ -1,0 +1,85 @@
+{
+  "benchmark": "PowerPoint deliverables",
+  "period": "2026-10-17 to 2026-10-24",
+  "status": "complete",
+  "tasks": {
+    "total": 11,
+    "create": 7,
+    "edit": 4
+  },
+  "runs": 55,
+  "rubric": {
+    "max": 100,
+    "dimensions": [
+      {
+        "label": "Task requirements",
+        "points": 30
+      },
+      {
+        "label": "Code level",
+        "points": 15
+      },
+      {
+        "label": "Domain",
+        "points": 10
+      },
+      {
+        "label": "Automated",
+        "points": 10
+      },
+      {
+        "label": "Stylistic",
+        "points": 10
+      },
+      {
+        "label": "Calculations",
+        "points": 10
+      },
+      {
+        "label": "think-cell",
+        "points": 15
+      }
+    ]
+  },
+  "models": [
+    {
+      "model": "Opus 5.5",
+      "model_id": "claude-opus-5-5",
+      "runs": 22,
+      "completed": 21,
+      "average_first_run": 35.8,
+      "average_all_runs": 40.7,
+      "runs_with_real_thinkcell": 6,
+      "average_cost_usd": 4.35,
+      "average_minutes": 14.4
+    },
+    {
+      "model": "Sonnet 5.5",
+      "model_id": "claude-sonnet-5-5",
+      "runs": 22,
+      "completed": 22,
+      "average_first_run": 33.1,
+      "average_all_runs": 32.7,
+      "runs_with_real_thinkcell": 0,
+      "average_cost_usd": 1.17,
+      "average_minutes": 9.4
+    },
+    {
+      "model": "Opus 5",
+      "model_id": "claude-opus-5",
+      "runs": 11,
+      "completed": 9,
+      "average_first_run": 20.5,
+      "average_all_runs": 20.5,
+      "runs_with_real_thinkcell": 0,
+      "average_cost_usd": 10.2,
+      "average_minutes": 24.7
+    }
+  ],
+  "notes": [
+    "Failed runs (no deck delivered) score 0 and are included in the averages.",
+    "Opus 5 ran each task once; Opus 5.5 and Sonnet 5.5 ran each task twice, so the first-run average compares like with like.",
+    "Totals include the rubric's gates and an adjustment for missed task requirements.",
+    "runs_with_real_thinkcell counts decks containing working think-cell objects, not native PowerPoint charts."
+  ]
+}
